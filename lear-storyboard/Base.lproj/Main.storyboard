@@ -46,6 +46,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="B1o-Qh-ESe" kind="presentation" modalPresentationStyle="fullScreen" id="HFj-jq-Ydg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebK-Ct-FPJ">
                                 <rect key="frame" x="127" y="717" width="138" height="35"/>
@@ -132,11 +135,19 @@
             </objects>
             <point key="canvasLocation" x="-95.419847328244273" y="-27.464788732394368"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="6dV-Gh-Pad">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="B1o-Qh-ESe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jSM-HR-53S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1577" y="-27"/>
+        </scene>
     </scenes>
     <resources>
         <image name="logo" width="800" height="460"/>
         <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

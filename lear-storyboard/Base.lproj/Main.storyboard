@@ -48,7 +48,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="loginButtonaction" destination="BYZ-38-t0r" eventType="touchUpInside" id="GKS-Av-Mpd"/>
-                                    <segue destination="B1o-Qh-ESe" kind="presentation" modalPresentationStyle="fullScreen" id="HFj-jq-Ydg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebK-Ct-FPJ">
@@ -85,11 +84,12 @@
                     <connections>
                         <outlet property="emailTextField" destination="Ghh-ou-KDV" id="xOG-Ny-fld"/>
                         <outlet property="passwordTextField" destination="Hq5-MM-e1F" id="pR0-jO-8Fm"/>
+                        <segue destination="B1o-Qh-ESe" kind="presentation" identifier="home_segue" modalPresentationStyle="fullScreen" id="TYn-kp-jEc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="831.29770992366412" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="830" y="-27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uww-ml-viy">

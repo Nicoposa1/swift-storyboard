@@ -47,6 +47,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="loginButtonaction" destination="BYZ-38-t0r" eventType="touchUpInside" id="GKS-Av-Mpd"/>
                                     <segue destination="B1o-Qh-ESe" kind="presentation" modalPresentationStyle="fullScreen" id="HFj-jq-Ydg"/>
                                 </connections>
                             </button>
@@ -81,6 +82,10 @@
                         <color key="backgroundColor" red="0.2196078431372549" green="0.34509803921568627" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="3gV-IT-n96"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="Ghh-ou-KDV" id="xOG-Ny-fld"/>
+                        <outlet property="passwordTextField" destination="Hq5-MM-e1F" id="pR0-jO-8Fm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
